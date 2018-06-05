@@ -124,7 +124,7 @@ header {
 
 .content article{
     padding: 80px;
-    margin: 10px 10px 10px 0;
+    margin: 10px 10px 0 0;
     border: #e1e1e1 1px solid;  
     flex: 1 0 auto
 }
@@ -135,7 +135,7 @@ header {
 
 footer {
     height: 120px;
-    margin-top: 600px;
+    margin-top: 570px;
     text-align: center;
     line-height: 4;
     color: #ffffff;
