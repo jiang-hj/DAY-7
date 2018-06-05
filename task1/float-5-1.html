@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>与定宽加自适应两栏布局类似</title>
+    <style>
+       div {
+           height: 500px;
+       }
+       
+        .left {
+            float: left;
+            width: 200px;
+            background-color: #ff0000;
+        }
+        
+        .middle{
+            float: left;
+            width: 300px;
+        }
+        .right {
+            margin-left: 500px;
+            background-color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        left固定200px
+    </div>
+    <div class="middle">
+        中间固定300px
+        <br />
+        方法类似问题2，不再多写。
+    </div>
+    <div class="right">
+        right自适应
+    </div>
+</body>
+</html>

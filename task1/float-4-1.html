@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>类似双飞翼布局</title>
+    <style>
+       div {
+           height: 500px;
+           box-sizing: border-box;           
+       }
+        .left {
+            float: left;
+            width: 200px;            
+            background-color: #ff0000;
+        }
+        
+        .wrap {
+            float: left;
+            width: 100%;
+            margin-left: -200px;           
+            padding: 0 300px 0 200px;
+        }
+        .middle {  
+            float: left;  
+            width: 100%;                  
+            background-color: #0000ff;
+        }
+
+        .right {
+            float: left;
+            width: 300px;
+            margin-left:-300px;
+            background-color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        left固定200px
+    </div>
+        <div class="wrap">
+            <div class="middle">middle自适应...................加长测试...............................</div>
+        </div>
+    <div class="right">
+        right固定300px
+    </div>
+</body>
+</html>

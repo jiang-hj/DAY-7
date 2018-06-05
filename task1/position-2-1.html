@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自适应设margin，定宽栏定位</title>
+    <style>
+        body{
+            position: relative;
+        }
+        div {
+            height: 500px;            
+        }
+
+        .left {  
+            position: absolute;                   
+            width: 200px;
+            background-color: #ff0000;
+        }
+        
+        .right {
+            margin: 0 0 0 200px;
+            background-color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        left宽度30%
+    </div>
+    <div class="right">
+        right宽度70%
+    </div>
+</body>
+</html>

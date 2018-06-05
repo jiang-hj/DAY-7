@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex定宽+自适应</title>
+    <style>
+      section {
+          display: flex;   
+          border: #000000 1px solid;                         
+      }
+
+      article:nth-of-type(1){
+          height: 300px;
+          flex:0 0 200px;
+          background-color: #ff0000;
+      }
+
+      article:nth-of-type(2){
+          height: 500px;
+          flex:10 0.1 0;
+          background-color: #00ffff;
+      }
+    </style>
+</head>
+<body>
+    <section>
+        <article class="left">
+            left宽度200px
+        </article>
+        <article class="right">
+            right宽度自适应
+            <br />
+            其他几种布局的实现思路类似，不再写
+        </article>
+    </section>
+</body>
+</html>

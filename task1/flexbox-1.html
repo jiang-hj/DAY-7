@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      section {
+          display: flex;   
+          border: #000000 1px solid;                         
+      }
+
+      article:nth-of-type(1){
+          height: 300px;
+          flex:3 3 0;
+          background-color: #ff0000;
+      }
+
+      article:nth-of-type(2){
+          height: 500px;
+          flex:7 7 0;
+          background-color: #00ffff;
+      }
+    </style>
+</head>
+<body>
+    <section>
+        <article class="left">
+            left宽度30%
+        </article>
+        <article class="right">
+            right宽度70%
+        </article>
+    </section>
+</body>
+</html>
